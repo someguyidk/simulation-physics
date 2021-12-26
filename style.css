@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  position:absolute;
+  top:0px;
+}
+h3 {
+  top:200px;
+  position:relative;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+table {
+  top:210px;
+  position:relative;
+  border:1px solid black;
+  border-collapse:collapse;
+  bottom:10px;
+}
+th {
+  top:200px;
+  position:relative;
+  border:1px solid black;
+}
+td {
+  border:1px solid black;
+}
+tr {
+  border:1px solid black;
+}
+th, td {
+  padding:5px;
+}
