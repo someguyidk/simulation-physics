@@ -8,6 +8,7 @@ let trctr = 0;
 let clck;
 let run = true;
 let generboolean = true;
+let massobj1 = prompt("Please type in a positive integer");
 
 function preload() {
   img = loadImage('Riven.png');
@@ -16,7 +17,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, 200);
-  b1 = new sq(250,150,1,-1,100); 
+  b1 = new sq(250,150,massobj1,-1,100); 
   b2 = new sq(100,150,1,0,50);
   
 }
