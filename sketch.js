@@ -8,7 +8,7 @@ let trctr = 0;
 let clck;
 let run = true;
 let generboolean = true;
-let massobj1 = window.prompt("Please type in a positive integer",1);
+let massobj1 = parseInt(window.prompt("Please type in a positive integer",1));
 
 function preload() {
   img = loadImage('Riven.png');
