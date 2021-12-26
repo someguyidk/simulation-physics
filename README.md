@@ -1,2 +1,2 @@
 # simulation-physics
-Physics simulation 
+Physics simulation made with Javascript with help from the p5.js library for my Physics IA
